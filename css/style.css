@@ -17,11 +17,11 @@ body{
 }
 
 .contenedor:hover .circulo.a{
-	left: 50%;
+	left: calc(50% - 100px);
 }
 
 .contenedor:hover .circulo.b{
-	right: 50%;
+	right: calc(50% - 100px);
 }
 
 .circulo{
