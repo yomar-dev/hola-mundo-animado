@@ -16,6 +16,14 @@ body{
 	position: relative;
 }
 
+.contenedor:hover .circulo.a{
+	left: 50%;
+}
+
+.contenedor:hover .circulo.b{
+	right: 50%;
+}
+
 .circulo{
 	display: flex;
 	justify-content: center;
@@ -25,6 +33,7 @@ body{
 	width: 100px;
 	border-radius: 50%;
 	position: absolute;
+	transition: 1s;
 }
 
 .circulo.a{
